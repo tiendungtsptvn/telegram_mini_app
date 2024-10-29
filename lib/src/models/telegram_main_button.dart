@@ -2,6 +2,7 @@ import 'package:js/js.dart';
 
 ///Docs:https://core.telegram.org/bots/webapps#mainbutton
 @JS()
+
 /// Telegram Main Button.
 class TLMainButton {
   /// Use these properties as getters or setters

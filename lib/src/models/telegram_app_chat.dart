@@ -4,6 +4,7 @@ import 'package:js/js.dart';
 
 /// Docs: https://core.telegram.org/bots/webapps#webappchat
 @JS()
+
 /// Telegram App Chat.
 class TLAppChat {
   external int get id;

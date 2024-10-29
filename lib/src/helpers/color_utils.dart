@@ -10,7 +10,6 @@ extension ColorsExtensions on Color {
 
 /// Extension to convert a [String] to a Color
 extension StringExtensions on String {
-
   /// String to color.
   Color toColor() {
     try {
