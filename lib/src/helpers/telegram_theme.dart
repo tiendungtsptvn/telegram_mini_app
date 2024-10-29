@@ -4,9 +4,10 @@ import 'package:telegram_mini_app/src/helpers/color_utils.dart';
 
 /// Implement theme colors from telegram `themeParams` to flutter `ThemeData`
 class TelegramTheme {
-  
+  /// Get current theme
   static ThemeData? get currentTheme => isDarkMode ? dark : light;
 
+  /// Get light theme
   static ThemeData get light => ThemeData.light().copyWith(
         primaryColor: rawTheme?.primaryColor,
         scaffoldBackgroundColor: rawTheme?.scaffoldBackgroundColor,
@@ -15,6 +16,7 @@ class TelegramTheme {
         appBarTheme: rawTheme?.appBarTheme,
       );
 
+  /// Get dark theme
   static ThemeData get dark {
     return ThemeData.dark().copyWith(
       primaryColor: rawTheme?.primaryColor,

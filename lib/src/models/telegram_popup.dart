@@ -36,6 +36,7 @@ class TLPopup {
   }
 }
 
+/// Popup button.
 class PopupButton {
   String id;
   PopupButtonType? type;

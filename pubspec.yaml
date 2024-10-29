@@ -1,5 +1,5 @@
 name: telegram_mini_app
-description: Build telegram mini app(web app) with Flutter.
+description: Simple library for build telegram mini app(web app) with Flutter easier.
 version: 0.0.1
 homepage: https://github.com/tiendungtsptvn/telegram_mini_app
 
@@ -17,12 +17,16 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
 
-# The following section is specific to Flutter packages.
+screenshots:
+  - description: "© Telegram"
+    path: assets/logo.webp
+
+topics:
+  - telegram
+  - mini-app
+  - web-app
+
 flutter:
 
-  # To add assets to your package, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
-  #
+
 

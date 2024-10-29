@@ -5,6 +5,7 @@ typedef ViewPortListener = Function(
     bool isStable, double height, double stableHeight);
 typedef ThemeChangeListener = Function(bool isDarkMode, ThemeParams params);
 
+/// Telegram Web Events.
 class TelegramWebEvent {
   /// Event listeners for Telegram WebViewPort Changes
   static void setViewPortChangeListener(ViewPortListener listener) {
